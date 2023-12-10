@@ -1,0 +1,11 @@
+git config --list
+git config user.name "dj"
+git config user.email "djmail"
+touch file1.txt
+echo "text added" > file2.txt
+git init
+git add .
+git status
+git commit -m "message"
+git remote add origin https://github.com/OWNER/REPOSITORY.git 
+git push -u origin master
